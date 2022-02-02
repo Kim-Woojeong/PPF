@@ -1,0 +1,190 @@
+:root {
+  /* Color */
+  --white-color: #fff;
+  --black-color: #140a00;
+  --purple-light-color: rgb(212, 212, 255);
+
+  /* Size */
+  --padding: 12px;
+  --avatar-size: 36px;
+
+  /* Font Size */
+  --font-large: 50px;
+  --font-medium: 30px;
+  --font-small: 25px;
+  --font-micro: 18px;
+
+  /* Font Weight */
+  --font-bold: 800;
+  --font-light: 200;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(to top, #fff 85%, rgb(162, 187, 255) 15%);
+}
+
+li {
+  list-style-type: none;
+}
+
+/* Header */
+header {
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  top: 0;
+  text-align: center;
+  height: 40px;
+  color: var(--black-color);
+}
+
+header span {
+  font-weight: var(--font-bold);
+}
+header .menu {
+  display: flex;
+  justify-content: space-between;
+}
+header .menu li {
+  margin-right: 20px;
+}
+
+/* page1 */
+.page1 {
+  display: flex;
+  width: 100%;
+  font-weight: var(--font-light);
+}
+
+/* serviceIntroduction */
+.serviceIntro {
+  flex-direction: column;
+  width: 65%;
+  padding: 100px 50px 100px 150px;
+  margin-top: 50px;
+}
+.serviceIntro .serviceExplain {
+  font-size: var(--font-large);
+  font-weight: var(--font-bold);
+}
+.serviceIntro .serviceName {
+  font-size: var(--font-micro);
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+.serviceIntro .serviceName span {
+  color: white;
+  font-weight: var(--font-bold);
+  margin-left: 10px;
+}
+
+.serviceIntro .serviceUse {
+  font-size: var(--font-small);
+  text-align: center;
+  /* border: solid black 0.5px; */
+  padding: 100px 0 100px;
+}
+
+/* serviceExplain */
+.serviceEx {
+  /* display: flex; */
+  width: 35%;
+  background-color: var(--white-color);
+  margin: 100px 150px 100px 50px;
+  box-shadow: 0px 0px 15px 1px gray;
+  border-radius: 30px;
+  padding: 30px 30px 20px 30px;
+}
+.serviceEx .serviceExTitle {
+  font-weight: var(--font-bold);
+  font-size: var(--font-medium);
+  margin-bottom: 20px;
+}
+.serviceEx .serviceExContent {
+  font-size: var(--font-micro);
+  margin-bottom: 10px;
+}
+
+.serviceEx img {
+  height: 350px;
+  text-align: center;
+}
+.serviceEx button {
+  text-align: center;
+  width: 400px;
+  padding: 15px 50px;
+  font-size: var(--font-micro);
+  font-weight: var(--font-light);
+  color: var(--white-color);
+  background-color: rgb(181, 181, 241);
+  border-radius: 10px;
+  border-style: none;
+}
+
+/* common part */
+.title {
+  width: 100%;
+  height: 30vh;
+  border-top: solid 0.3px gray;
+  display: flex;
+  padding: 100px;
+}
+
+.title i {
+  align-items: center;
+  margin-right: 30px;
+  font-size: 50px;
+}
+
+.title .subTitle {
+  display: flex;
+  flex-direction: column;
+}
+
+.title .subTitle_1 {
+  font-size: var(--font-micro);
+  margin-bottom: 10px;
+}
+.title .subTitle_2 {
+  font-size: var(--font-medium);
+  font-weight: var(--font-bold);
+}
+
+.contents {
+  width: 100%;
+  height: 70vh;
+  padding: 0 200px;
+}
+
+.contents ul li {
+  float: left;
+  padding: 10px 25px;
+  margin: 20px;
+  background: var(--purple-light-color);
+  border-radius: 30px;
+  font-weight: var(--font-light);
+}
+
+/* page1 Styling */
+
+/* page2 Styling */
+
+/* page3 Styling */
+
+/* page4 Styling */
+
+/* Footer */
+footer {
+  text-align: center;
+  font-weight: var(--font-light);
+  padding: 50px;
+  border-top: solid 1px black;
+}
